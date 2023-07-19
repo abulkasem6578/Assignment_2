@@ -16,16 +16,18 @@
 
 body {
     width: 1920px;
-    height: 130px;
 }
 
+/* header style */
+
 .header {
+    width: 100%;
     background: var(--white);
+    padding: 55px 240px;
 }
 
 .navbar {
     display: flex;
-    padding: 55px 240px;
     justify-content: space-between;
 }
 
@@ -73,4 +75,92 @@ body {
     height: 56px;
     border-radius: 9px;
     color: #0B0223;
+}
+
+/* main style start */
+
+.main {
+    width: 100%;
+    padding: auto 240px;
+}
+
+.section1 {
+    /* width: 1920px; */
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.sec1_content {
+    background-image: url(./images/Group\ 14.png);
+    width: 901px;
+    height: 700px;
+    padding: 148px 310px 148px 0px;
+}
+
+.sec1_content h3 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    margin-left: 240px;
+    width: 348px;
+    height: 56px;
+}
+
+.sec1_content h1 {
+    margin-left: 240px;
+    font-size: 95px;
+    font-weight: 800;
+    background: var(--rgba);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 355px;
+    height: 110px;
+
+}
+
+.sec1_content p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 17px 0 17px 240px;
+}
+
+.sec1_content .para {
+    margin-bottom: 40px;
+}
+
+.sec1_content .button {
+    margin-left: 240px;
+    display: flex;
+    gap: 24px;
+}
+
+.sec1_content .btn_pink {
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    border-radius: 3rem;
+    background: var(--pink);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sec1_content .btn_blue {
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    border-radius: 3rem;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sec1_img {
+    width: 711px;
+    height: 446px;
+    margin-left: ;
 }
